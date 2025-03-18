@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School of Redemption</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333333;
+            line-height: 1.8;
+        }
+        header {
+            background-color: #000000;
+            padding: 80px 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 4.5em;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.3em;
+            color: #cccccc;
+            animation: fadeIn 3s ease-in-out;
+        }
+        nav {
+            background-color: #333333;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            font-size: 3em;
+            color: #000000;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 50px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555555;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .card {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card h3 {
+            font-size: 1.8em;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+        .card p {
+            font-size: 1em;
+            color: #555555;
+            text-align: left;
+        }
+        .news-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .news-item {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .news-item img {
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .news-item h4 {
+            font-size: 1.5em;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .news-item p {
+            font-size: 1em;
+            color: #555555;
+            text-align: left;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form button:hover {
+            background-color: #333333;
+        }
+        footer {
+            background-color: #000000;
+            padding: 30px;
+            text-align: center;
+            color: #ffffff;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+            color: #ffffff;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>School of Redemption</h1>
+        <p>Where Excellence is Not Just a Goal, It's a Standard</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#vision">Vision & Mission</a>
+        <a href="#programs">Programs</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Since 2009, the <strong>School of Redemption</strong> has been a beacon of excellence in Addis Ababa, Ethiopia. With over <strong>3000 students</strong> and a dedicated team of <strong>400 staff members</strong>, we have created a nurturing environment where students thrive academically, socially, and morally. Our motto, <em>"If excellence is possible, good is not enough,"</em> drives everything we do.</p>
+        <img src="https://www.schoolofredemption.net/public/images/img2.png" alt="School Campus">
+    </section>
+
+    <section id="vision">
+        <h2>Vision & Mission</h2>
+        <article class="grid">
+            <article class="card">
+                <h3>Vision</h3>
+                <p>To become one of the <strong>top leading schools in Ethiopia</strong> by 2025, recognized for academic excellence, innovation, and holistic development.</p>
+            </article>
+            <article class="card">
+                <h3>Mission</h3>
+                <p>Our mission is to provide a <strong>safe, inclusive, and inspiring learning environment</strong> that fosters critical thinking, creativity, and moral values. We empower students to become lifelong learners and responsible global citizens.</p>
+            </article>
+        </article>
+    </section>
+
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <article class="grid">
+            <article class="card">
+                <h3>Kindergarten</h3>
+                <p>Our kindergarten program focuses on <strong>play-based learning</strong>, helping young minds develop social, emotional, and cognitive skills in a fun and engaging environment.</p>
+            </article>
+            <article class="card">
+                <h3>Elementary School</h3>
+                <p>From Grades 1 to 6, we emphasize <strong>foundational skills</strong> in literacy, numeracy, and critical thinking, preparing students for the challenges ahead.</p>
+            </article>
+            <article class="card">
+                <h3>High School</h3>
+                <p>Our high school program offers a <strong>rigorous academic curriculum</strong>, extracurricular activities, and career guidance to help students excel in their chosen paths.</p>
+            </article>
+        </article>
+    </section>
+
+    <section id="facilities">
+        <h2>Our Facilities</h2>
+        <p>We pride ourselves on providing state-of-the-art facilities to support our students' learning and growth. Our campus includes:</p>
+        <article class="grid">
+            <article class="card">
+                <h3>Modern Classrooms</h3>
+                <p>Equipped with the latest technology to enhance the learning experience.</p>
+            </article>
+            <article class="card">
+                <h3>Science Labs</h3>
+                <p>Fully equipped labs for physics, chemistry, and biology to foster scientific inquiry.</p>
+            </article>
+            <article class="card">
+                <h3>Sports Complex</h3>
+                <p>A sprawling sports complex with facilities for football, basketball, tennis, and more.</p>
+            </article>
+        </article>
+    </section>
+
+    <section id="news">
+        <h2>Latest News</h2>
+        <article class="news-section">
+            <article class="news-item">
+                <img src="https://www.schoolofredemption.net/public/images/pic2.jpg" alt="Nations Day Celebration">
+                <h4>Celebrating Nations Day</h4>
+                <p>Our students showcased their cultural pride during the 2023 Nations Day celebration.</p>
+            </article>
+            <article class="news-item">
+                <img src="https://via.placeholder.com/400x250" alt="Science Fair">
+                <h4>Annual Science Fair</h4>
+                <p>Students presented innovative projects at our annual science fair, showcasing their creativity and problem-solving skills.</p>
+            </article>
+            <article class="news-item">
+                <img src="https://via.placeholder.com/400x250" alt="Sports Day">
+                <h4>Sports Day 2023</h4>
+                <p>Our annual sports day was a huge success, with students participating in various athletic events.</p>
+            </article>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="post">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 School of Redemption. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
